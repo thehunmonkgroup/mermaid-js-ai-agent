@@ -14,12 +14,12 @@ def build_image(graph, filename):
     width = 500
     height = 500
     scale = 2
-    theme = "dark"  # Options: "default", "neutral", "dark", "forest", "base"
+    theme = "default"  # Options: "default", "neutral", "dark", "forest", "base"
 
     url = (
         "https://mermaid.ink/img/"
         + base64_string
-        + f"?width={width}&height={height}&scale={scale}&theme={theme}&bgColor=2a303c"
+        + f"?width={width}&height={height}&scale={scale}&theme={theme}&bgColor=white"
     )
 
     response = requests.get(url)
