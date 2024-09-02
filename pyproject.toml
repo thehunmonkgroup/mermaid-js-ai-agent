@@ -24,4 +24,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.scripts]
-main = "mermaid_agent.main:main"
+mermaid = "mermaid_agent.main:main"
