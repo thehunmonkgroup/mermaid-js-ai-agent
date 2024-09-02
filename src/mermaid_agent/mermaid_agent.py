@@ -15,8 +15,8 @@ from PIL import Image
 
 def build_model():
     # see llm_module.py for model options
-    # return llm_module.build_sonnet_3_5()
-    return llm_module.build_latest_openai()
+    return llm_module.build_sonnet_3_5()
+    # return llm_module.build_latest_openai()
     # return llm_module.build_mini_model()
 
 
